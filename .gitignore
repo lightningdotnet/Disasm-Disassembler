@@ -1,0 +1,69 @@
+# Build output
+build/
+out/
+cmake-build-*/
+install/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeUserPresets.json
+CMakeScripts/
+cmake_install.cmake
+*.cmake_install.cmake
+
+# Compiled output
+*.exe
+*.obj
+*.o
+*.lib
+*.a
+*.dll
+*.so
+*.dylib
+*.pdb
+*.ilk
+*.exp
+*.idb
+*.tlog
+*.log
+*.lastbuildstate
+*.unsuccessfulbuild
+
+# Visual Studio
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.opensdf
+*.sdf
+ipch/
+*.aps
+*.ncb
+*.cachefile
+
+# IDE
+.vscode/
+.idea/
+.cache/
+.ccls-cache/
+.clangd/
+compile_commands.json
+
+# ImGui state (per-user UI layout)
+imgui.ini
+disasm.ini
+
+# OS junk
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Vendored / manual deps that should be pulled via FetchContent instead
+imgui-master/
+imgui-docking/
+zydis-master/
+raw_pdb-main/
