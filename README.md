@@ -15,7 +15,7 @@ cmake -S . -B build -G "Visual Studio 17 2022" -A x64
 cmake --build build --config Release
 ```
 
-Your exe lands at `build/Release/disasm.exe`.
+ Builds to: `build/Release/disasm.exe`.
 
 ## Use it
 
